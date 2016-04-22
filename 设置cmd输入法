@@ -1,0 +1,8 @@
+Win10 Cmd输入中文：
+[HKEY_CURRENT_USER\Console\%SystemRoot%_System32_cmd.exe]
+"CodePage"=dword:000003a8  936
+Console 下CodePage =1b5 473 英文
+这样按理说就可以了，可是default page code 下面的下拉框消失了。
+这时候要设置region  
+Location: China
+Administrative: Chinese(Simplified, China)
